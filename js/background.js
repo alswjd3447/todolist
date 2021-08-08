@@ -5,7 +5,7 @@ function getImg() {
 
   const bgImg = document.createElement("img");
 
-  bgImg.src = `../img/${choseImg}`;
+  bgImg.src = `./img/${choseImg}`;
   bgImg.id = "bgImg";
 
   document.body.appendChild(bgImg);
