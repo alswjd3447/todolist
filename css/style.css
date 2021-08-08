@@ -47,25 +47,36 @@ body {
   justify-content: flex-start;
   align-items: center;
   backdrop-filter: blur(3px);
-  padding: 5px 50px;
-  border-radius: 20px;
+  padding: 50px 50px;
+  border-radius: 50px;
 }
 
+#loginBtm,
 #toDoListBtn {
   background-color: rgb(136, 135, 135);
   border-radius: 6px;
   border: none;
 }
 
-li > span {
-  display: inline-block;
-  width: 280px;
+input:focus {
+  outline: 2px solid black;
 }
 
+li > span {
+  display: inline-block;
+  width: 180px;
+}
+
+#userName,
 #toDoInput {
-  width: 300px;
+  width: 200px;
   margin-right: 10px;
-  border: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid rgb(136, 135, 135);
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 #todo-list button {
