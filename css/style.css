@@ -1,0 +1,78 @@
+.hidden {
+  display: none;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Hahmlet", serif;
+}
+
+.timebox span {
+  font-weight: 1000;
+}
+
+#greeting {
+  font-weight: 1000;
+}
+
+.timebox {
+  background-color: rgba(218, 218, 218, 0.8);
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  padding: 5px 50px;
+  backdrop-filter: blur(3px);
+  border-radius: 20px;
+}
+
+#bgImg {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+}
+.view {
+  background-color: rgba(218, 218, 218, 0.8);
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  backdrop-filter: blur(3px);
+  padding: 5px 50px;
+  border-radius: 20px;
+}
+
+#toDoListBtn {
+  background-color: rgb(136, 135, 135);
+  border-radius: 6px;
+  border: none;
+}
+
+li > span {
+  display: inline-block;
+  width: 280px;
+}
+
+#toDoInput {
+  width: 300px;
+  margin-right: 10px;
+  border: none;
+}
+
+#todo-list button {
+  border-radius: 6px;
+  border: none;
+}
+
+#qoute {
+  text-align-last: center;
+  width: 460px;
+}
